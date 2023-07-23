@@ -7,7 +7,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, minimum-scale=1"
 		/>
-		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -22,7 +22,7 @@
 	</head>
 
 	<body>
-		<img src="img/otori1.webp" class="preload" />
+		<img src="/img/otori1.webp" class="preload" />
 		<div id="content">
 			<h1>Emu Otori</h1>
 			<hr id="subtitle-seperator" />
@@ -51,9 +51,9 @@
 		<script>
 			//varible
 			var audioList = [
-				new Audio("audio/hallo.mp3"),
-				new Audio("audio/otori.mp3"),
-				new Audio("audio/smile.mp3"),
+				new Audio("/audio/hallo.mp3"),
+				new Audio("/audio/otori.mp3"),
+				new Audio("/audio/smile.mp3"),
 			];
 
 			for (const audio of audioList) {
